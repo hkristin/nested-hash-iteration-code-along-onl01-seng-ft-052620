@@ -5,6 +5,7 @@ contacts.each do |person, contact_details_hash|
      if attribute == :favorite_ice_cream_flavors
         data.delete_if {|ice_cream| ice_cream == "strawberry"}
         binding.pry
+      end
     end
   end
 end
