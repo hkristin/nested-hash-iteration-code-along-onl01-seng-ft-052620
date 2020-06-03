@@ -1,10 +1,7 @@
 require 'pry'
-
-  
   
 def remove_strawberry(contacts)
-  {
-     "Jon Snow" => {
+  { "Jon Snow" => {
        name: "Jon",
        email: "jon_snow@thewall.we", 
        favorite_ice_cream_flavors: ["chocolate", "vanilla"]
@@ -20,7 +17,7 @@ def remove_strawberry(contacts)
     contact_details_hash.each do |attribute, data|
      if attribute == :favorite_ice_cream_flavors
         data.delete_if {|ice_cream| ice_cream == "strawberry"}
-        binding.pry
+       # binding.pry
       end
     end
   end
