@@ -9,12 +9,10 @@ contacts.each do |person, contact_details_hash|
     end
   end
 end
-  # This is the array we will be passing into the remove_strawberry method
-  # contacts = 
+  
   
 def remove_strawberry(contacts)
-{
-     {
+  {
      "Jon Snow" => {
        name: "Jon",
        email: "jon_snow@thewall.we", 
